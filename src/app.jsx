@@ -1,11 +1,14 @@
-import react from "react";
-import  './index.js';
-import './index.css';
-function App(){
-    return(
+import React from "react";
+import Main from "./Main";  // Make sure Main.jsx exists in the same folder as App.jsx
+import "./index.css";
+
+function App() {
+  return (
     <div>
-        <h1>Hello World</h1>
+      <Main />
+      <h1>Hello World</h1>
     </div>
-    );
+  );
 }
+
 export default App;
