@@ -1,10 +1,14 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./component/Home";
 
 function Mian() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+   return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+      </Routes>
+    </Router>
   );
 }
 export default Mian;
