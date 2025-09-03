@@ -13,7 +13,7 @@ function App() {
       style={{
         backgroundImage: "url('/profile.png')",
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "center",  
         minHeight: "100vh", // make sure it always fills
       }}
     >
